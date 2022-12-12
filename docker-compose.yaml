@@ -36,8 +36,12 @@ services:
     depends_on:
       - spark-master
     ports:
+<<<<<<< HEAD:docker-compose.yaml
       - "8181-8184:8081"
       - "4041-4044:4040"
+=======
+      - "8181-8183:8081"
+>>>>>>> 96aee0a307787293a8f1a68427f6bb2d0aec55b8:docker-compose.yml
     environment:
       <<: *spark-default-env
       SPARK_MASTER: spark://spark-master:7077
