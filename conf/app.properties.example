@@ -1,5 +1,5 @@
 SPARK_MASTER=spark://spark-master:7077
-SPARK_CHECKPOINT_PATH=hdfs://172.17.0.1:9000/user/hadoop/kafka-checkpoint
+SPARK_CHECKPOINT_PATH=hdfs://172.17.0.1:9000/user/ubuntu/kafka-checkpoint
 TIMEZONE=UTC
 
 KAFKA_BOOTSTRAP_SERVERS=172.17.0.1:9093
@@ -8,7 +8,7 @@ KAFKA_INPUT_STARTING_OFFSETS=latest
 SENSOR_STREAM_INPUT_TOPIC=sensor_events
 SENSOR_STREAM_OUTPUT_TOPIC=sensor_events_with_geoip
 
-MAXMIND_DB_PATH=hdfs://172.17.0.1:9000/user/hadoop/kaspacore/files/GeoLite2-City.mmdb
+MAXMIND_DB_PATH=hdfs://172.17.0.1:9000/user/ubuntu/kaspacore/files/GeoLite2-City.mmdb
 MAXMIND_DB_FILENAME=GeoLite2-City.mmdb
 
-LOG_LEVEL=DEBUG
+#LOG_LEVEL=DEBUG
